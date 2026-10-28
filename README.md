@@ -54,6 +54,9 @@ Production acceptance: state closure <=3e-7, amplitude drift <=5e-6, work drift 
 
 Verify the distributed files with `shasum -a 256 -c SHA256SUMS` (GNU: `sha256sum -c SHA256SUMS`). Hashes detect alteration, not publisher authenticity. See PROVENANCE.md for source history and changes, and REPRODUCIBILITY_REPORT.md for verification scope and limitations.
 
-Associated manuscript: Seyed Hamed Mirtalebi and Rozhin Hajian, “A Self-Excited Wing–Thorax Model of Asynchronous Insect Flight: Emergent Wingbeat and the Cost of Wing Flexibility,” unpublished manuscript. Manuscript DOI: **not assigned/verified**. Software citation: use this package title and version, approved software authors, repository URL and archival DOI only after the author supplies/approves them. CITATION.cff remains explicit draft metadata while software authorship is unresolved. No DOI is invented.
+Associated manuscript: Seyed Hamed Mirtalebi and Rozhin Hajian, “A Self-Excited Wing–Thorax Model of Asynchronous Insect Flight: Emergent Wingbeat and the Cost of Wing Flexibility,” unpublished manuscript. Manuscript DOI: **not assigned/verified**. Software citation: use this package title and version, approved software authors, repository URL and archival DOI only after the author supplies/approves them. Software citation information, including the software authors and version, is provided in CITATION.cff. The repository URL should be included when citing the software. No manuscript DOI has been assigned.
 
-No software license is assigned. Public reuse permission, software authorship/citation and publication authorization remain author decisions. Nothing has been uploaded or published.
+## License
+
+This software is distributed under the GNU General Public License
+version 3.0 (GPL-3.0-only). See [LICENSE](LICENSE) for details.
