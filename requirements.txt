@@ -1,0 +1,4 @@
+# Versions used for the verified execution; Python 3.9-3.12.
+numpy==2.0.2
+scipy==1.13.1
+matplotlib==3.9.4

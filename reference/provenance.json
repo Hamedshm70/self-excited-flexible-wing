@@ -1,0 +1,37 @@
+{
+  "scope": "Corrected benchmarks; Stage B2 integrations pending",
+  "sources": {
+    "phase4/results/integration_manifest.json": "f94bce2e989586ebc6b2be014a4772c4460129b714148eb7a5fdff329cac10fb",
+    "phase3/results/fig2_curves.json": "57a456eeea8891aeab946012fdee03ae17672ac1dc90f6d4ee5b36952d7f8e44",
+    "phase3/results/fig3_corrected_recalibrated.json": "1b74328ac1b110002268bddf79a5f926a466d286a819849794e398effc475bf0",
+    "phase4/results/fig4_onsets.json": "a393e9639a58ea3aa9d60b2678f703a4659c5a4035a690af5b825f9efb7dd697",
+    "phase4/results/fig4_branches.json": "2363579e126495eae1e3e732128bae4e94f142808564f8324ba4971d1686434b",
+    "phase2/results/energetic_cases.json": "e1b3a77651f8251c68619a50c40dfee76c32747636fd3acd5c0855719bd6e3a4",
+    "phase4/results/fig6_continuation_verified.json": "5149d10cbf8056d1e2ea2b92b7c5259bd37e05c0a49b504e3c78d500f6efd921",
+    "Revision_Tracking/Figure6_rw7p5_Candidate/New_Curve_Verification.json": "9b91c56a4bd47c008d584481735bb8de362bb357d46e46a277df16e419a34752",
+    "Revision_Tracking/Figure6_rw7p5_Candidate/Rw5p5_Existing_Diagnostic_Data.json": "de214567b6292030041fc8ba2644e922d2e791f6190c8a9159fd99013735a2cc",
+    "phase4/results/fig6_final_endpoints.json": "9999d7642427b4de129e5d07b4a13dd2d115d1cdbd636c46fd26aa1e2304ee39",
+    "Revision_Tracking/Figure6_rw7p5_Candidate/Timing583_PanelB_Verification.json": "5d4ed82db0b5b5e36eebb80b9baa4d064eba109ca48e250eba91ea4a0571cc63",
+    "phase4/results/fig7.json": "019c6b37b862ae6e08f64e715e4f3d6b70f39c022b7c74f5da0d6dc308bd6855",
+    "phase4/results/fig8_curves.json": "a34e6657dfb6c8be1716a388e01e24b37fc6f3dbffc8e6b26df3b867e1b44226",
+    "Phase5_Figure_Refinement/Numerical/results/additional_fig8_results.json": "df00ebd3b8395abf9f174c097e29c98e5fb6c36a36acf648c101b60a56befff6",
+    "phase4/results/fig8_boundaries.json": "86335e42514e3fe3053df9f825df03d0ad2d6c4fbb84a537e48bc353ff78a6af",
+    "phase3/results/timing_curves.json": "5d0dfff0484c07cbe7fa3704b8d988a7f7cd053fa6ff9a9f36c0eb937183e8d0",
+    "phase3/results/timing_baseline.json": "22f85cde0c61d0b2711a844e0e73183e6eecace5f314089182d324de85484aa3",
+    "phase3/results/timing_boundaries.json": "59f660e022e10d21522d55e867c85db891f83a45a001efc011f9eb0c2eaf69d9",
+    "phase3/results/timing_boundary_rw2p5.json": "6c6a1b5db1af6035fbdf244f4382edd6cbc283bad074fc7e40466d94de5fbdf3",
+    "phase4/results/fig11_final.json": "bb5deeb8e59d3fc178d891ff196ca8e3bceb07515e5df3e6abe9a4a4186f19df",
+    "phase4/results/fig11_boundaries.json": "ad81e90493fe9746b48e9580c7a7fceb1a8e298e2144ed33b2aadb1be287893f",
+    "phase4/results/table3_records.json": "9aa00b7871de47c27a0f6ab4fd8930bcbfd7ff9035524432809950d16d2d0cb4",
+    "phase4/results/table4_records.json": "6fd477d2c0b28a1ca6c748a3803db747ae0c07324ca890e6d0646d216d122d40",
+    "phase2/results/modal_comparison.json": "a837c2a7a14cba47388aeb0777a2eb5be6cd05a3f36e0a35260a7593bb377099",
+    "phase2/results/full_comparison.json": "cf693d3279237f226c7cc9349aee176866c74d3d75a0a3d2c9ea964f3bd1b001",
+    "phase2/results/full_matched_comparison.json": "3085bd648a421e6b5f536a54737957dbbf9be41cf38df355a9cbeafaab7c1eb2",
+    "phase4/results/combined_same_rw.json": "4e5ca45851d7d9d65484dc22074f70abaf6b0b3b7653baeab2dca817a65f1f1b",
+    "phase4/results/combined_boundary.json": "f7c22492fc0a6e2a4645327046d065577e2e8730a837be7bb5664950d1ff8608"
+  },
+  "historical_files": [
+    "fig2_original_source.json",
+    "fig4_original_source.json"
+  ]
+}

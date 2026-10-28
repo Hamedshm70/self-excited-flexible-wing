@@ -1,0 +1,304 @@
+{
+  "version": "0.1.0-rc2",
+  "completed": "2026-10-27T21:40:26.228533-04:00",
+  "verdict": "READY AFTER MINOR CORRECTIONS",
+  "manuscript_results": {
+    "tested": 13,
+    "passed": 13,
+    "partial": 0,
+    "failed": 0,
+    "not_tested": 0
+  },
+  "case_count": 910,
+  "scalar_comparisons": 17848,
+  "strict_groups": 20,
+  "structural_checks": 136,
+  "supplemental_structural_checks": 11,
+  "lightweight_tests": 20,
+  "fault_rejections": 15,
+  "manuscript_checks": 88,
+  "figures": [
+    {
+      "figure": 2,
+      "cases": 31,
+      "comparisons": 271,
+      "max_absolute_difference": 1.981110671067654e-07,
+      "max_tolerance_fraction": 1.4976362314785433e-05,
+      "quantitative": 10,
+      "diagnostic": 0,
+      "unavailable": []
+    },
+    {
+      "figure": 3,
+      "cases": 1,
+      "comparisons": 24,
+      "max_absolute_difference": 2.36290304655995e-07,
+      "max_tolerance_fraction": 5.8820483258889654e-05,
+      "quantitative": 1,
+      "diagnostic": 0,
+      "unavailable": []
+    },
+    {
+      "figure": 4,
+      "cases": 189,
+      "comparisons": 2173,
+      "max_absolute_difference": 5.996753316139802e-09,
+      "max_tolerance_fraction": 9.963002117589958e-09,
+      "quantitative": 73,
+      "diagnostic": 0,
+      "unavailable": []
+    },
+    {
+      "figure": 5,
+      "cases": 4,
+      "comparisons": 94,
+      "max_absolute_difference": 4.7699492133901344e-08,
+      "max_tolerance_fraction": 5.291192941127437e-05,
+      "quantitative": 4,
+      "diagnostic": 0,
+      "unavailable": []
+    },
+    {
+      "figure": 6,
+      "cases": 240,
+      "comparisons": 4758,
+      "max_absolute_difference": 0.0003529844083232092,
+      "max_tolerance_fraction": 0.052100115452362004,
+      "quantitative": 171,
+      "diagnostic": 69,
+      "unavailable": []
+    },
+    {
+      "figure": 7,
+      "cases": 72,
+      "comparisons": 1872,
+      "max_absolute_difference": 1.1014689047517123e-06,
+      "max_tolerance_fraction": 0.003458071634924971,
+      "quantitative": 72,
+      "diagnostic": 0,
+      "unavailable": []
+    },
+    {
+      "figure": 8,
+      "cases": 162,
+      "comparisons": 4293,
+      "max_absolute_difference": 4.046360346787736e-07,
+      "max_tolerance_fraction": 0.0031866022508071825,
+      "quantitative": 126,
+      "diagnostic": 33,
+      "unavailable": [
+        {
+          "key": "0.5|3",
+          "reason": "Unconverged cycle: {'periodic_state_rel': 0.11318697968681342, 'cycle_amp_rel': 0.06657000834358293, 'cycle_work_rel': 0.031749215133796554, 'energy_balance_rel': 4.4784470202588167e-10}",
+          "r_w": 3.0,
+          "target": 0.5,
+          "t0": null,
+          "N_W": null
+        },
+        {
+          "key": "1.0|5.2",
+          "reason": "Unconverged cycle: {'periodic_state_rel': 0.49981300699744224, 'cycle_amp_rel': 0.008916699118275808, 'cycle_work_rel': 0.0009751097449775053, 'energy_balance_rel': 1.964833895356109e-10}",
+          "r_w": 5.2,
+          "target": 1.0,
+          "t0": null,
+          "N_W": null
+        },
+        {
+          "key": "1.0|5.25",
+          "reason": "Unconverged cycle: {'periodic_state_rel': 0.5336157846165965, 'cycle_amp_rel': 0.000555700422036377, 'cycle_work_rel': 0.002167087252587497, 'energy_balance_rel': 2.633711612587975e-10}",
+          "r_w": 5.25,
+          "target": 1.0,
+          "t0": null,
+          "N_W": null
+        }
+      ]
+    },
+    {
+      "figure": 9,
+      "cases": 44,
+      "comparisons": 385,
+      "max_absolute_difference": 0.030118573721665598,
+      "max_tolerance_fraction": 0.11615370884491785,
+      "quantitative": 33,
+      "diagnostic": 2,
+      "unavailable": [
+        {
+          "key": "rw2p5|0.0024",
+          "reason": "Converged first-branch local peak 0.166965247911 below target at gain 14.1108813722",
+          "r_w": 2.5,
+          "target": null,
+          "t0": 0.0024,
+          "N_W": null
+        },
+        {
+          "key": "rw2p5|0.0027064244137",
+          "reason": "Converged first-branch local peak 0.193325865498 below target at gain 16.2743616423",
+          "r_w": 2.5,
+          "target": null,
+          "t0": 0.002706424413695008,
+          "N_W": null
+        },
+        {
+          "key": "rw2|0.0024",
+          "reason": "direct integration failed: Required step size is less than spacing between numbers.",
+          "r_w": 2.0,
+          "target": null,
+          "t0": 0.0024,
+          "N_W": null
+        },
+        {
+          "key": "rw2|0.0027064244137",
+          "reason": "direct integration failed: Required step size is less than spacing between numbers.",
+          "r_w": 2.0,
+          "target": null,
+          "t0": 0.002706424413695008,
+          "N_W": null
+        },
+        {
+          "key": "rw2|0.00305197212794",
+          "reason": "Converged first-branch local peak 0.133491664986 below target at gain 13.4511676252",
+          "r_w": 2.0,
+          "target": null,
+          "t0": 0.0030519721279351547,
+          "N_W": null
+        },
+        {
+          "key": "rw2|0.00344163828207",
+          "reason": "Converged first-branch local peak 0.153269736446 below target at gain 15.8918989747",
+          "r_w": 2.0,
+          "target": null,
+          "t0": 0.003441638282066841,
+          "N_W": null
+        },
+        {
+          "key": "rw2|0.00388105577904",
+          "reason": "Converged first-branch local peak 0.173373139998 below target at gain 18.9861545335",
+          "r_w": 2.0,
+          "target": null,
+          "t0": 0.0038810557790387706,
+          "N_W": null
+        },
+        {
+          "key": "rw2|0.00437657671304",
+          "reason": "Converged first-branch local peak 0.193671357663 below target at gain 22.8899555647",
+          "r_w": 2.0,
+          "target": null,
+          "t0": 0.004376576713042763,
+          "N_W": null
+        },
+        {
+          "key": "rw2|0.0044",
+          "reason": "Converged first-branch local peak 0.194575295699 below target at gain 23.0844471929",
+          "r_w": 2.0,
+          "target": null,
+          "t0": 0.0044,
+          "N_W": null
+        }
+      ]
+    },
+    {
+      "figure": 10,
+      "cases": 7,
+      "comparisons": 186,
+      "max_absolute_difference": 4.7699492133901344e-08,
+      "max_tolerance_fraction": 0.00011923934732242637,
+      "quantitative": 7,
+      "diagnostic": 0,
+      "unavailable": []
+    },
+    {
+      "figure": 11,
+      "cases": 160,
+      "comparisons": 3792,
+      "max_absolute_difference": 1.3748887508491237e-06,
+      "max_tolerance_fraction": 0.0015308364398496643,
+      "quantitative": 153,
+      "diagnostic": 5,
+      "unavailable": [
+        {
+          "key": "0.3|3.147640625",
+          "reason": "converged_continuous_local_rollover_below_target",
+          "r_w": 3.147640625,
+          "target": null,
+          "t0": null,
+          "N_W": 0.3
+        },
+        {
+          "key": "0.4|2.63693451118",
+          "reason": "converged_continuous_local_rollover_below_target",
+          "r_w": 2.636934511184693,
+          "target": null,
+          "t0": null,
+          "N_W": 0.4
+        }
+      ]
+    }
+  ],
+  "central_figure10": {
+    "r_w": 1.9814995134296145,
+    "mu_hat": 16.27271459983226,
+    "stroke_amp": 0.19999999999642315,
+    "W_plus": 0.08915286088280458,
+    "peak_force": 0.16859735254646108,
+    "peak_positive_power": 0.03415502217792985,
+    "peak_effective_force_mN": 67.90484965788247,
+    "mean_positive_power_mW": 0.1543987873831273,
+    "positive_work_uJ": 1.5088336928926949,
+    "frequency_Hz": 102.32989103465614,
+    "W_plus_over_rigid": 2.951355088427892,
+    "peak_force_over_rigid": 2.9464988652437776,
+    "peak_positive_power_over_rigid": 3.0184380318141355
+  },
+  "environment": {
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+    "os": "macOS-26.5-arm64-64bit",
+    "machine": "arm64",
+    "dependencies": {
+      "packaging": "26.3",
+      "scipy": "1.13.1",
+      "matplotlib": "3.9.4",
+      "numpy": "2.0.2",
+      "tzdata": "2026.5",
+      "kiwisolver": "1.4.7",
+      "contourpy": "1.3.0",
+      "fonttools": "4.60.2",
+      "pip": "21.2.4",
+      "zipp": "3.23.1",
+      "cycler": "0.12.1",
+      "pillow": "11.3.0",
+      "python-dateutil": "3.0.0",
+      "setuptools": "58.0.4",
+      "pyparsing": "3.3.3",
+      "six": "1.17.0",
+      "importlib_resources": "6.5.2"
+    }
+  },
+  "scientific_file_checksums": {
+    "tests_numeric.py": "06f01424a4b9d2a6d4c3734aa962879a9eba1e45c28cb1aeed2e4545ab88964d",
+    "analysis.py": "c35e84f63c3644a17d4c45775dd68de0edcd6e84f5abbc6bca03218cd06ffc14",
+    "full_model.py": "a5873b09a9a7d797cb1e16508acda82a3fd26e3cfe60e9e41e858f8793eb923a",
+    "figure4_analysis.py": "53ccf8924b6f9733fe9ed2d66f582b24cb05275462c6e8b7986a5381ad22331e",
+    "model.py": "522ebc467eec4a56073f8dbff86fb4a62f7105f116a0bb8b2994970f9c2791d2",
+    "figures.py": "7f4f6873132720e73923f87186faf508988bdce3d651b1518bf4f576adac2271",
+    "structural_verification.py": "21d5f5e84ca57f0d5c8e5b8741733f7dacdeb5651c6f0449333c95f1b6217145",
+    "parameters.py": "4b2e93a8ee190c0e740337486588a601af40dbb6b4aa8e2c63b735d877d37f6f",
+    "modal_model.py": "091b7e4d6872a8de4b56fcbcc49b0010acd2b9751dc3a2f57dd6049f7a05a4b1",
+    "run_all.py": "7181f0f92e6b65cc552843a50042e4a8c203d13ab6847ac04fb2aa7e4fbb03a1",
+    "reference/provenance.json": "94977ac85c99298d329f791e318619e8b197b96597aff72480aa7274ae2f6249",
+    "reference/fig2_original_source.json": "f6909c518057ad2242bfc31e1586e7dae7422fdb3353b110f349688eaff286f4",
+    "reference/search_seeds.json": "5da70eea7826586905dbe7e469ac2d7f1b16cbc4bf8441025325651cf2555670",
+    "reference/fig4_original_source.json": "260c43acb46051741515fbd65119671829ed4cd54c4a3f678f59ec7482eb3041",
+    "reference/production_values.json": "8a8b99b547d27b3374332c325baf695daab9c8d776f13abacd464a8d295685f7",
+    "requirements.txt": "359902fb96ed25f16e3df8293ae3ccd34eb7c578d05deeade204dde5ba40d1e7"
+  },
+  "supplemental_verification_helper_checksum": {
+    "verification/check_supplemental.py": "d87413056f1f854c89ffbebc55380452477506dbf2ffb8f788de72618a052946"
+  },
+  "original_monitored_files_unchanged": 188,
+  "remaining_author_decisions": [
+    "software license",
+    "software authorship/citation",
+    "publication approval"
+  ],
+  "elapsed_seconds": 4352.417205
+}

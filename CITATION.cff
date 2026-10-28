@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "DRAFT: author must approve software authorship and citation before publication. No software license assigned."
+title: "A Self-Excited Wing–Thorax Model of Asynchronous Insect Flight: Emergent Wingbeat and the Cost of Wing Flexibility: reproducibility package"
+type: software
+version: "0.1.0-rc2"
+authors:
+  - name: "PLACEHOLDER: software authorship awaiting author approval"
+abstract: >-
+  Computational package associated with the unpublished manuscript by
+  Seyed Hamed Mirtalebi and Rozhin Hajian, A Self-Excited Wing–Thorax Model of Asynchronous Insect Flight:
+  Emergent Wingbeat and the Cost of Wing Flexibility. Software authorship requires
+  separate approval. No publication date, journal acceptance or DOI is asserted.
